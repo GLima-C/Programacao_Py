@@ -1,0 +1,381 @@
+Rodada;TimeCasa;TimeFora;CA_Casa;CV_Casa;Chutes_Casa;Escanteios_Casa;Faltas_Casa;Impedimentos_Casa;CA_Fora;CV_Fora;Chutes_Fora;Escanteios_Fora;Faltas_Fora;Impedimentos_Fora
+1;Cruzeiro;Cuiabá;3;0;14;9;13;1;5;0;9;0;10;3
+1;Flamengo;Coritiba;0;1;10;3;25;5;1;1;19;2;15;0
+1;Vasco;Atlético-MG;2;0;19;7;7;2;5;1;18;3;23;5
+1;Fortaleza;Goiás;2;2;20;4;10;5;2;1;16;2;14;0
+1;Internacional;Botafogo;4;2;20;10;11;5;2;2;7;5;25;1
+1;São Paulo;Bahia;0;1;19;0;25;2;1;1;11;9;12;4
+1;Santos;Grêmio;2;1;4;10;21;1;3;0;9;7;25;5
+1;América-MG;Corinthians;1;2;6;4;8;1;5;1;4;6;17;4
+1;Palmeiras;Bragantino;4;1;11;4;19;4;0;2;10;1;18;4
+1;Fluminense;Athletico-PR;5;2;17;9;5;2;4;1;9;7;16;5
+2;Atlético-MG;São Paulo;0;1;14;8;15;0;0;0;15;7;18;0
+2;Bahia;Corinthians;2;1;20;6;6;5;3;1;16;6;20;4
+2;Santos;Palmeiras;2;0;11;6;10;1;4;1;11;6;5;1
+2;Cuiabá;Fortaleza;1;0;14;0;12;0;5;1;3;10;14;5
+2;Cruzeiro;Grêmio;0;2;5;3;8;1;2;2;5;6;20;4
+2;Fluminense;Bragantino;3;1;3;1;18;5;1;2;16;2;16;3
+2;Internacional;Goiás;5;0;19;10;22;4;2;0;13;10;18;0
+2;Botafogo;Athletico-PR;2;2;15;5;23;0;1;2;14;5;24;4
+2;Coritiba;Vasco;0;1;11;1;8;0;2;2;15;3;6;5
+2;Flamengo;América-MG;3;1;9;3;12;4;2;0;4;4;13;4
+3;Bragantino;Internacional;0;0;9;8;23;4;3;1;20;3;9;5
+3;Goiás;Fortaleza;0;2;9;6;13;3;2;2;8;1;23;1
+3;Vasco;Atlético-MG;0;0;8;10;16;0;2;2;4;2;12;3
+3;Corinthians;Cuiabá;1;0;18;4;15;5;5;2;15;8;22;1
+3;Bahia;Botafogo;5;0;19;2;10;2;4;0;13;2;14;4
+3;Athletico-PR;Grêmio;4;1;11;2;18;2;2;2;15;10;5;5
+3;Santos;São Paulo;3;1;20;9;19;5;1;2;9;4;13;3
+3;Coritiba;Fluminense;3;1;20;0;20;3;0;0;16;5;16;5
+3;Cruzeiro;América-MG;1;0;5;0;14;1;1;0;13;1;13;2
+3;Palmeiras;Flamengo;0;0;7;1;16;2;4;2;16;2;14;4
+4;Flamengo;Santos;3;2;18;1;18;3;3;2;5;8;11;4
+4;São Paulo;Botafogo;0;0;20;8;7;0;5;1;15;7;8;5
+4;Internacional;Goiás;4;0;15;10;8;0;2;1;11;9;22;0
+4;Coritiba;Grêmio;5;2;16;8;8;4;2;2;12;8;12;5
+4;Bahia;Cruzeiro;0;0;4;6;20;2;5;1;10;9;6;5
+4;Palmeiras;Fortaleza;2;1;14;6;23;4;3;2;5;7;5;4
+4;Cuiabá;Bragantino;0;1;3;0;23;5;4;0;3;9;14;4
+4;Athletico-PR;América-MG;1;0;8;4;11;0;3;0;9;1;20;0
+4;Atlético-MG;Fluminense;1;2;6;2;7;4;2;0;6;3;9;2
+4;Corinthians;Vasco;1;2;12;8;9;2;5;2;17;9;20;1
+5;Palmeiras;Bahia;3;2;19;3;24;1;3;2;13;3;23;0
+5;Flamengo;Internacional;4;2;10;7;6;1;3;1;6;8;25;2
+5;Bragantino;Fluminense;0;2;7;7;20;4;2;2;17;4;20;3
+5;América-MG;Vasco;2;1;7;7;22;4;2;2;9;9;20;4
+5;Santos;Cuiabá;1;1;19;3;15;0;4;1;11;2;21;0
+5;Fortaleza;Corinthians;0;1;19;4;12;2;1;1;9;3;13;5
+5;Grêmio;Atlético-MG;4;2;17;6;8;3;5;1;19;9;10;4
+5;Athletico-PR;Coritiba;0;2;18;5;25;1;5;1;14;1;18;1
+5;Goiás;São Paulo;0;0;14;3;10;3;4;1;20;5;7;1
+5;Botafogo;Cruzeiro;4;1;15;7;13;1;2;2;15;6;23;5
+6;Bragantino;Palmeiras;5;2;13;9;15;5;0;1;3;2;19;0
+6;Goiás;Botafogo;4;2;8;7;24;5;2;0;5;6;8;5
+6;Atlético-MG;Vasco;1;2;13;8;8;3;4;1;13;8;20;3
+6;Internacional;Fortaleza;0;0;10;6;7;5;0;2;20;8;18;1
+6;Fluminense;Corinthians;3;1;19;9;23;2;2;1;16;4;22;3
+6;Athletico-PR;América-MG;2;0;18;8;12;2;3;0;12;9;19;3
+6;São Paulo;Grêmio;3;1;13;3;9;3;1;1;14;4;22;1
+6;Santos;Cuiabá;4;1;13;7;11;3;3;2;15;0;13;5
+6;Cruzeiro;Bahia;2;2;12;2;16;1;4;0;12;8;19;4
+6;Flamengo;Coritiba;4;2;7;8;19;1;1;0;17;9;7;1
+7;Bahia;Flamengo;3;2;8;3;24;3;4;2;9;0;23;3
+7;Fluminense;Goiás;2;0;5;3;14;0;0;2;4;2;7;3
+7;Cruzeiro;Santos;5;0;14;6;5;5;5;0;14;4;18;5
+7;Athletico-PR;Palmeiras;3;0;9;8;18;0;2;1;10;7;9;2
+7;América-MG;São Paulo;0;0;5;1;19;5;5;1;5;5;19;2
+7;Grêmio;Atlético-MG;0;1;3;9;15;2;4;2;15;10;25;5
+7;Botafogo;Internacional;2;1;11;4;6;4;4;0;13;7;8;3
+7;Bragantino;Coritiba;0;1;7;3;16;4;4;0;13;2;7;3
+7;Vasco;Fortaleza;4;1;12;6;12;2;1;0;18;5;18;4
+7;Corinthians;Cuiabá;3;1;5;10;20;5;3;2;15;5;23;5
+8;Santos;Internacional;2;0;15;3;11;0;1;2;17;7;13;2
+8;Cuiabá;São Paulo;1;2;17;10;21;4;4;1;5;3;24;2
+8;Flamengo;Bragantino;2;1;9;2;10;0;4;2;8;2;21;1
+8;Palmeiras;Corinthians;0;2;11;10;12;2;1;1;19;1;9;5
+8;Coritiba;Botafogo;5;0;13;9;19;4;3;0;8;9;5;5
+8;Fluminense;Cruzeiro;0;1;7;8;10;2;0;2;11;0;7;5
+8;Goiás;Atlético-MG;1;0;4;10;14;3;4;2;10;5;23;1
+8;América-MG;Athletico-PR;4;2;3;6;25;3;4;1;3;0;22;2
+8;Vasco;Bahia;1;0;18;1;22;1;4;1;7;2;23;4
+8;Fortaleza;Grêmio;1;0;16;1;20;2;4;2;8;7;13;4
+9;São Paulo;Cruzeiro;4;0;7;5;8;2;0;0;4;3;24;1
+9;Fortaleza;Goiás;3;2;14;9;15;4;1;1;15;4;19;4
+9;Grêmio;Palmeiras;3;2;19;2;9;1;4;2;12;9;24;1
+9;Flamengo;Botafogo;2;2;12;9;5;5;4;2;8;0;25;4
+9;Fluminense;Internacional;5;2;8;3;18;4;1;1;15;10;18;5
+9;América-MG;Bahia;2;0;5;10;17;5;5;1;3;10;18;2
+9;Corinthians;Santos;2;0;8;9;19;1;0;1;3;0;15;2
+9;Cuiabá;Athletico-PR;5;2;12;2;10;3;3;2;5;10;22;0
+9;Coritiba;Vasco;4;0;19;0;9;2;3;2;8;8;17;3
+9;Atlético-MG;Bragantino;3;2;15;8;20;3;2;1;20;6;12;5
+10;Goiás;Vasco;4;1;8;7;8;2;2;2;3;8;15;5
+10;Flamengo;Corinthians;1;2;17;0;5;5;5;2;18;4;16;0
+10;São Paulo;Cruzeiro;0;2;17;4;6;3;3;1;4;5;21;1
+10;Fluminense;Coritiba;5;1;7;10;18;1;0;1;14;2;15;5
+10;Bragantino;América-MG;5;0;14;4;12;3;2;0;6;2;22;1
+10;Santos;Botafogo;3;2;6;7;11;1;5;1;6;9;21;0
+10;Bahia;Atlético-MG;1;1;17;10;17;2;2;1;7;5;18;5
+10;Fortaleza;Grêmio;5;2;19;10;10;3;3;1;18;7;14;1
+10;Cuiabá;Internacional;3;1;15;4;13;4;4;2;15;8;12;5
+10;Athletico-PR;Palmeiras;4;2;18;9;18;5;3;2;19;2;24;2
+11;Cuiabá;Cruzeiro;1;0;15;1;5;4;0;2;9;7;5;3
+11;Goiás;Palmeiras;2;1;19;9;24;2;0;2;11;8;10;5
+11;Flamengo;Coritiba;3;2;9;7;23;1;2;2;9;5;25;4
+11;Bragantino;Fortaleza;1;1;19;9;14;3;5;2;20;3;6;5
+11;Fluminense;Atlético-MG;3;1;19;5;13;0;1;0;16;5;5;3
+11;Bahia;São Paulo;2;1;11;5;22;0;2;0;10;7;12;4
+11;Botafogo;Athletico-PR;1;1;4;1;24;1;1;0;16;5;20;5
+11;Santos;Internacional;2;2;17;8;12;4;5;2;8;1;24;1
+11;América-MG;Vasco;5;1;18;4;7;2;1;1;9;3;21;0
+11;Corinthians;Grêmio;3;0;17;1;19;5;4;2;12;9;21;1
+12;Internacional;Santos;0;1;9;9;21;4;5;2;13;1;5;1
+12;Cruzeiro;Fluminense;0;0;14;3;20;0;3;2;19;2;24;1
+12;Coritiba;Athletico-PR;3;0;6;5;6;4;0;1;13;10;12;5
+12;Goiás;Corinthians;4;0;12;9;9;5;1;1;19;7;19;0
+12;Atlético-MG;Cuiabá;0;1;3;4;6;3;5;2;20;2;22;5
+12;Fortaleza;São Paulo;5;1;4;1;21;0;3;0;5;5;6;1
+12;Botafogo;Flamengo;5;1;19;4;12;1;4;1;16;1;9;2
+12;América-MG;Bragantino;5;0;15;7;16;3;3;1;15;10;13;0
+12;Bahia;Vasco;2;2;18;9;16;1;4;0;13;7;9;0
+12;Grêmio;Palmeiras;4;1;10;4;22;2;2;1;19;4;21;4
+13;Grêmio;Flamengo;3;1;8;4;22;3;5;1;14;1;8;1
+13;Cuiabá;Santos;0;0;7;3;19;5;5;1;9;9;15;1
+13;Goiás;Internacional;1;2;3;0;19;3;3;0;3;7;13;4
+13;Cruzeiro;Vasco;1;2;7;5;16;1;1;2;8;1;21;0
+13;Corinthians;Atlético-MG;3;1;18;5;18;2;3;0;6;0;21;1
+13;Bragantino;Fortaleza;3;1;18;6;6;2;1;2;14;5;23;0
+13;América-MG;Botafogo;5;1;14;8;14;3;3;2;6;7;15;1
+13;São Paulo;Coritiba;3;2;20;8;21;3;0;0;7;3;8;5
+13;Athletico-PR;Fluminense;5;2;15;9;11;3;3;1;4;0;16;4
+13;Bahia;Palmeiras;1;1;4;2;25;5;3;2;9;3;22;3
+14;Cuiabá;Grêmio;2;1;8;1;5;4;3;1;17;2;15;1
+14;Bragantino;São Paulo;4;2;3;6;5;4;1;0;6;8;25;3
+14;Internacional;Bahia;1;1;11;5;16;4;0;0;6;0;17;4
+14;Santos;Fluminense;0;1;14;9;15;2;1;2;9;0;19;4
+14;América-MG;Vasco;0;1;15;2;17;4;5;1;13;0;17;5
+14;Fortaleza;Coritiba;5;2;14;1;9;0;0;0;18;10;17;2
+14;Goiás;Flamengo;3;0;20;1;18;0;2;2;15;0;9;1
+14;Cruzeiro;Botafogo;2;2;5;6;5;3;4;1;15;5;21;0
+14;Palmeiras;Atlético-MG;4;0;12;5;17;3;4;0;10;1;18;5
+14;Corinthians;Athletico-PR;2;0;18;8;5;2;0;2;11;10;22;4
+15;Corinthians;Fortaleza;5;2;4;2;21;3;3;2;20;0;10;2
+15;Goiás;Athletico-PR;0;0;15;7;22;3;3;1;8;8;16;2
+15;Cruzeiro;Cuiabá;3;1;17;10;15;4;3;0;18;5;14;5
+15;Vasco;Internacional;1;2;3;10;19;4;5;2;7;7;10;3
+15;América-MG;Grêmio;0;0;11;0;23;2;0;2;19;8;8;3
+15;Flamengo;Bragantino;1;1;13;3;7;2;1;0;11;7;20;2
+15;Santos;Atlético-MG;1;1;12;6;8;2;5;2;18;10;6;4
+15;Coritiba;Bahia;0;1;15;5;20;0;1;0;12;4;21;5
+15;Botafogo;São Paulo;2;2;9;10;8;3;5;0;18;3;5;1
+15;Palmeiras;Fluminense;5;0;11;0;19;4;0;0;14;3;12;5
+16;Coritiba;São Paulo;1;2;10;6;20;4;0;0;7;1;20;4
+16;Bahia;Cruzeiro;4;0;11;5;24;5;4;0;12;7;7;5
+16;América-MG;Palmeiras;0;1;13;7;15;5;5;0;3;1;18;0
+16;Flamengo;Vasco;0;1;19;3;13;4;1;2;7;5;19;2
+16;Corinthians;Grêmio;1;2;19;10;10;5;0;0;16;0;9;2
+16;Bragantino;Atlético-MG;4;2;11;5;19;4;3;1;20;7;19;0
+16;Fluminense;Goiás;3;0;5;9;25;1;3;1;8;8;17;5
+16;Athletico-PR;Internacional;4;2;16;3;13;2;5;2;6;5;11;3
+16;Fortaleza;Santos;2;0;5;1;12;0;5;2;20;10;22;4
+16;Cuiabá;Botafogo;5;0;8;2;5;2;1;0;7;7;8;4
+17;Athletico-PR;Goiás;2;0;14;6;5;3;0;1;11;9;6;5
+17;Palmeiras;Flamengo;2;2;3;1;10;0;4;2;14;10;24;0
+17;Cuiabá;Cruzeiro;2;0;5;4;7;3;0;2;16;4;16;3
+17;Bragantino;Grêmio;1;2;6;6;13;0;1;0;14;3;25;2
+17;Botafogo;Bahia;5;1;5;8;21;0;0;1;9;7;18;1
+17;Santos;São Paulo;4;0;17;7;20;3;5;1;17;3;24;2
+17;Corinthians;Fortaleza;1;2;8;2;22;4;3;0;17;0;7;2
+17;Vasco;Coritiba;3;0;8;9;13;1;3;0;7;0;11;4
+17;Fluminense;América-MG;2;1;17;0;5;2;0;2;8;3;8;2
+17;Internacional;Atlético-MG;3;2;6;8;16;4;0;0;9;9;16;3
+18;Bahia;Bragantino;3;0;15;8;8;5;2;1;3;9;25;0
+18;Athletico-PR;Flamengo;0;1;18;7;20;1;3;0;19;2;22;4
+18;Santos;Botafogo;5;2;13;7;12;0;0;2;19;8;14;1
+18;Fluminense;Atlético-MG;0;1;5;10;24;2;2;1;15;9;18;2
+18;Grêmio;América-MG;0;2;10;10;23;4;4;2;3;1;15;2
+18;São Paulo;Fortaleza;1;1;7;3;6;1;5;1;17;3;20;1
+18;Vasco;Corinthians;1;2;17;4;12;5;4;2;3;4;14;0
+18;Goiás;Cuiabá;2;0;13;4;24;4;5;2;18;10;9;1
+18;Coritiba;Palmeiras;3;1;18;9;22;5;4;2;5;8;5;4
+18;Cruzeiro;Internacional;1;1;11;4;19;2;3;2;20;2;11;3
+19;Internacional;Santos;4;0;10;10;5;4;1;0;4;4;9;5
+19;Fluminense;Bragantino;2;1;18;0;15;0;1;2;6;4;24;2
+19;América-MG;Coritiba;0;2;11;2;5;2;4;0;7;7;7;5
+19;Goiás;Corinthians;2;0;13;2;19;1;2;1;11;5;23;2
+19;Botafogo;Vasco;4;0;8;9;24;1;1;1;4;6;8;2
+19;Athletico-PR;Cuiabá;5;0;16;10;6;2;5;1;9;4;7;1
+19;Atlético-MG;Cruzeiro;5;2;8;5;25;0;2;0;7;6;18;4
+19;Fortaleza;Flamengo;3;2;6;0;23;3;5;2;7;6;13;1
+19;Palmeiras;Bahia;2;1;7;7;25;5;2;2;20;4;17;0
+19;Grêmio;São Paulo;5;0;13;8;17;2;4;2;14;3;18;0
+20;Coritiba;São Paulo;2;2;18;6;18;0;2;1;18;6;12;2
+20;Cruzeiro;Corinthians;1;0;5;6;7;0;1;1;11;2;10;2
+20;Flamengo;Goiás;5;1;18;6;23;0;1;1;18;7;5;4
+20;Vasco;Bahia;3;2;19;4;18;2;3;1;10;8;19;0
+20;Grêmio;Atlético-MG;1;0;9;8;24;2;5;2;9;0;17;5
+20;Palmeiras;Santos;5;1;11;1;11;5;4;1;8;7;25;3
+20;América-MG;Fortaleza;4;1;5;7;7;3;0;2;7;10;13;1
+20;Internacional;Cuiabá;5;1;9;3;24;0;4;2;14;6;20;0
+20;Fluminense;Botafogo;5;0;17;3;20;5;5;1;18;6;9;2
+20;Athletico-PR;Bragantino;0;1;8;6;11;4;4;2;14;3;12;4
+21;Santos;Athletico-PR;5;2;12;9;22;3;3;2;20;10;17;3
+21;Internacional;Fortaleza;5;0;14;5;6;2;2;2;15;7;14;4
+21;Bahia;Botafogo;0;0;13;10;11;0;5;1;15;9;22;4
+21;São Paulo;Palmeiras;4;1;4;10;13;0;2;0;8;1;17;2
+21;Grêmio;Cuiabá;5;0;16;0;22;2;0;0;5;6;17;2
+21;Cruzeiro;Goiás;4;0;11;6;24;3;0;2;9;4;15;0
+21;Bragantino;Corinthians;3;1;6;6;11;4;1;0;5;8;11;4
+21;América-MG;Vasco;0;0;12;7;17;4;4;0;19;8;9;0
+21;Coritiba;Flamengo;5;2;3;6;16;5;4;1;4;4;19;3
+21;Atlético-MG;Fluminense;0;2;12;6;23;0;4;1;9;0;15;1
+22;América-MG;Atlético-MG;3;2;5;2;6;5;1;2;9;7;23;3
+22;Fortaleza;Bahia;2;2;5;0;19;1;4;1;9;3;11;1
+22;Bragantino;Corinthians;0;0;16;10;11;5;1;0;14;2;17;2
+22;Palmeiras;Cuiabá;0;1;20;10;10;5;4;1;8;4;8;1
+22;Athletico-PR;Santos;3;1;14;6;11;0;4;1;12;1;8;2
+22;Internacional;Grêmio;2;0;18;4;12;1;2;0;16;3;5;4
+22;Botafogo;Goiás;1;2;4;8;13;3;4;0;13;3;25;1
+22;Flamengo;Coritiba;2;0;5;3;14;0;3;0;13;2;5;5
+22;São Paulo;Vasco;3;2;6;2;18;0;5;2;5;7;10;5
+22;Fluminense;Cruzeiro;3;0;10;9;10;4;1;0;5;10;7;3
+23;Grêmio;Botafogo;5;0;20;5;10;3;5;1;3;0;8;0
+23;América-MG;Athletico-PR;2;1;5;5;19;1;5;0;10;3;15;0
+23;Corinthians;Santos;2;1;8;8;6;4;5;2;8;1;16;1
+23;Fortaleza;Bahia;0;1;15;5;24;2;1;1;13;8;6;5
+23;Vasco;São Paulo;0;0;10;4;19;4;2;2;19;3;17;1
+23;Atlético-MG;Fluminense;4;1;13;3;24;1;5;1;13;2;20;4
+23;Bragantino;Palmeiras;3;1;18;8;19;3;4;1;13;2;18;5
+23;Cuiabá;Flamengo;5;2;16;3;21;5;3;2;5;0;13;1
+23;Coritiba;Goiás;1;0;10;3;15;4;2;2;5;8;10;0
+23;Cruzeiro;Internacional;2;2;10;3;19;2;1;0;12;2;23;5
+24;Cruzeiro;Athletico-PR;2;1;19;9;10;3;1;2;4;7;12;0
+24;Flamengo;Grêmio;3;2;7;0;6;0;2;1;17;4;12;2
+24;Bragantino;Corinthians;5;2;5;0;10;0;4;1;15;10;9;4
+24;Fortaleza;Santos;3;0;18;7;25;0;3;2;9;5;7;4
+24;Palmeiras;Atlético-MG;1;2;4;1;19;2;0;1;12;6;23;5
+24;São Paulo;Internacional;0;2;20;0;15;2;1;1;14;9;15;2
+24;Coritiba;Bahia;1;1;12;3;25;4;4;2;18;3;20;5
+24;Botafogo;Fluminense;5;2;20;1;8;1;4;1;12;6;5;3
+24;Vasco;América-MG;0;1;15;5;11;0;0;0;15;10;11;1
+24;Goiás;Cuiabá;3;0;11;3;16;4;2;1;11;0;13;4
+25;Grêmio;Flamengo;0;0;14;10;25;4;4;2;4;6;20;2
+25;Palmeiras;Bragantino;5;0;17;0;8;4;4;2;13;10;21;5
+25;Atlético-MG;Cruzeiro;0;0;5;6;17;1;1;2;17;8;8;5
+25;Botafogo;Corinthians;3;2;13;5;7;4;4;1;10;9;16;1
+25;Bahia;Goiás;4;1;6;5;17;0;4;2;5;5;17;4
+25;Vasco;Cuiabá;4;1;4;5;18;1;4;1;3;3;20;3
+25;Athletico-PR;Santos;4;2;9;3;18;3;0;2;10;6;12;5
+25;América-MG;Fortaleza;0;1;5;5;18;1;4;1;18;0;11;1
+25;São Paulo;Coritiba;5;1;6;4;21;2;5;1;12;2;21;0
+25;Fluminense;Internacional;5;0;16;9;8;1;3;2;16;8;8;0
+26;Corinthians;Cruzeiro;0;1;4;6;5;5;3;2;20;5;10;2
+26;Palmeiras;Internacional;0;0;18;9;24;4;3;0;10;5;6;0
+26;Goiás;Grêmio;5;2;5;0;24;5;1;0;20;9;23;5
+26;Coritiba;Vasco;3;0;16;3;24;5;2;0;3;10;5;3
+26;Flamengo;São Paulo;1;2;7;10;12;4;5;1;10;4;13;2
+26;América-MG;Santos;2;0;5;5;25;4;1;2;7;3;17;1
+26;Bragantino;Athletico-PR;3;0;12;10;10;0;4;2;3;2;14;0
+26;Fortaleza;Cuiabá;4;0;8;8;5;3;0;2;8;0;25;5
+26;Botafogo;Fluminense;2;0;14;4;16;0;3;1;8;10;11;4
+26;Atlético-MG;Bahia;3;1;16;2;13;4;1;0;13;0;7;0
+27;Coritiba;Cruzeiro;0;1;13;10;5;2;5;1;10;5;21;2
+27;Atlético-MG;Fortaleza;4;1;5;7;25;5;2;0;19;5;11;3
+27;Corinthians;Athletico-PR;2;1;11;4;17;3;0;2;12;2;24;3
+27;América-MG;São Paulo;3;0;9;3;8;0;4;2;12;0;25;5
+27;Vasco;Cuiabá;4;2;9;8;16;5;2;0;15;10;11;4
+27;Goiás;Santos;4;1;5;3;25;5;4;2;6;10;14;4
+27;Botafogo;Fluminense;3;2;13;3;25;1;4;0;3;5;6;2
+27;Internacional;Flamengo;1;2;8;4;23;4;3;1;10;7;23;0
+27;Bahia;Bragantino;5;2;12;6;21;0;1;2;8;8;13;5
+27;Palmeiras;Grêmio;1;2;13;6;20;3;1;2;9;5;12;4
+28;Corinthians;Flamengo;1;1;6;8;5;2;3;2;15;8;19;2
+28;Fortaleza;Vasco;3;1;4;1;9;4;5;0;5;5;8;4
+28;Cruzeiro;Internacional;3;0;4;3;18;3;0;1;6;10;5;2
+28;Atlético-MG;São Paulo;2;0;5;4;13;0;3;2;5;4;23;4
+28;Grêmio;Athletico-PR;4;1;6;6;8;1;0;1;9;1;15;3
+28;Cuiabá;Bragantino;3;0;19;1;23;2;0;2;9;2;13;1
+28;Botafogo;Bahia;5;0;6;5;18;5;2;1;13;10;17;2
+28;Fluminense;Coritiba;4;0;16;5;18;1;3;1;6;0;9;2
+28;Santos;Goiás;5;1;3;10;22;5;2;2;4;0;13;1
+28;América-MG;Palmeiras;4;2;12;1;7;5;5;1;10;5;24;5
+29;Cuiabá;Bahia;1;0;15;9;22;1;4;0;13;1;17;1
+29;Grêmio;Atlético-MG;1;0;15;1;15;2;3;2;12;4;21;4
+29;Flamengo;Goiás;4;0;14;3;14;2;0;0;20;1;21;2
+29;Botafogo;Cruzeiro;2;1;17;7;14;2;3;2;10;5;20;2
+29;Fluminense;Coritiba;4;1;19;9;9;1;4;1;9;10;15;2
+29;São Paulo;Santos;1;2;12;2;7;0;2;2;4;9;22;5
+29;América-MG;Bragantino;5;1;19;2;8;3;2;0;7;4;5;4
+29;Corinthians;Internacional;0;2;4;0;10;3;0;2;15;2;16;1
+29;Athletico-PR;Fortaleza;2;1;18;9;14;1;5;2;9;7;21;1
+29;Palmeiras;Vasco;3;2;20;9;18;4;5;2;20;5;16;5
+30;Cruzeiro;Atlético-MG;1;2;9;9;15;4;0;2;4;10;18;0
+30;América-MG;Corinthians;1;2;11;3;25;5;1;0;15;9;8;1
+30;Santos;Fortaleza;0;1;4;10;7;2;2;0;13;6;13;0
+30;Goiás;Vasco;2;2;20;7;20;0;0;2;16;10;8;4
+30;Cuiabá;Palmeiras;2;2;5;10;17;1;4;2;10;4;5;2
+30;Flamengo;Bahia;3;1;14;1;22;4;2;2;12;0;18;4
+30;Internacional;Botafogo;3;0;15;2;22;3;1;0;13;1;5;3
+30;Athletico-PR;Grêmio;4;0;7;5;9;4;2;2;13;4;12;3
+30;Fluminense;Coritiba;3;2;3;7;16;2;3;1;5;10;12;4
+30;São Paulo;Bragantino;5;0;10;10;10;4;1;2;16;10;12;2
+31;Athletico-PR;Santos;0;2;8;6;19;2;4;0;4;4;9;4
+31;Bahia;Corinthians;1;0;7;7;24;5;3;0;9;8;14;5
+31;Goiás;Fortaleza;3;0;10;8;9;3;0;0;20;0;6;5
+31;Botafogo;Fluminense;5;1;13;8;12;4;4;2;15;4;9;0
+31;Coritiba;Flamengo;3;1;17;1;19;5;0;0;19;0;12;5
+31;Atlético-MG;Internacional;2;0;10;8;24;1;5;2;19;1;10;0
+31;Vasco;Bragantino;1;2;12;8;22;3;5;2;5;10;17;2
+31;Grêmio;São Paulo;2;0;9;4;17;2;3;0;19;8;20;0
+31;América-MG;Cruzeiro;4;2;11;9;17;4;3;0;16;6;15;5
+31;Cuiabá;Palmeiras;2;0;6;5;13;5;1;1;20;1;10;3
+32;Bahia;Fluminense;3;1;20;6;18;1;0;1;9;9;16;2
+32;Cruzeiro;Flamengo;0;0;5;9;9;2;0;1;6;3;19;0
+32;Athletico-PR;Atlético-MG;3;2;4;6;22;1;4;0;10;10;16;5
+32;Bragantino;Fortaleza;2;0;4;3;13;2;0;2;8;6;13;0
+32;América-MG;Palmeiras;2;0;13;10;12;5;2;0;14;4;5;5
+32;Cuiabá;Botafogo;4;2;3;5;24;3;0;0;5;10;13;5
+32;Corinthians;Internacional;4;1;3;8;24;5;2;1;3;8;16;0
+32;São Paulo;Coritiba;3;2;9;8;14;2;2;0;12;3;11;4
+32;Santos;Goiás;5;2;12;8;23;4;4;0;19;9;11;4
+32;Vasco;Grêmio;3;1;12;8;24;5;4;2;3;5;14;5
+33;Vasco;Santos;2;1;18;3;12;3;3;2;9;0;6;3
+33;Athletico-PR;Grêmio;3;0;14;7;12;4;4;0;13;3;11;2
+33;Corinthians;Flamengo;4;2;10;3;13;2;0;0;20;8;22;2
+33;Palmeiras;Internacional;1;2;19;10;20;4;2;1;19;0;16;0
+33;Goiás;América-MG;4;1;13;0;6;2;2;1;3;6;10;2
+33;São Paulo;Coritiba;4;1;16;9;23;3;1;1;17;3;16;4
+33;Cuiabá;Fortaleza;0;0;16;0;24;1;1;2;9;3;8;5
+33;Botafogo;Atlético-MG;0;1;15;9;13;5;1;1;18;4;9;2
+33;Bahia;Cruzeiro;5;0;13;7;17;0;2;0;11;5;25;4
+33;Bragantino;Fluminense;4;1;8;8;7;4;3;0;16;0;19;1
+34;Athletico-PR;Palmeiras;3;2;18;5;21;2;4;1;18;9;25;5
+34;Internacional;Cruzeiro;4;0;10;1;10;4;2;1;17;0;13;5
+34;Corinthians;Botafogo;5;2;5;7;21;1;0;2;16;0;15;2
+34;Flamengo;Santos;5;0;9;10;16;2;0;0;14;1;8;2
+34;Fluminense;Vasco;2;2;4;4;18;1;0;0;15;10;22;3
+34;São Paulo;Coritiba;3;0;13;9;11;4;0;1;18;1;10;1
+34;Fortaleza;Grêmio;4;2;18;7;5;5;0;0;16;4;10;0
+34;Goiás;América-MG;3;1;15;5;14;3;5;1;19;1;5;0
+34;Atlético-MG;Bragantino;1;0;10;3;14;5;1;0;5;5;22;1
+34;Bahia;Cuiabá;0;2;10;0;19;1;3;1;5;9;17;5
+35;Fluminense;Athletico-PR;0;1;10;7;6;1;5;0;12;7;7;0
+35;Corinthians;Bahia;1;0;17;9;12;3;3;2;12;5;23;4
+35;Palmeiras;América-MG;1;1;10;5;21;1;4;0;10;8;6;3
+35;Cruzeiro;Goiás;4;1;9;10;17;4;1;1;17;3;15;0
+35;Atlético-MG;São Paulo;0;0;13;8;22;1;5;1;15;8;24;1
+35;Bragantino;Santos;1;0;3;9;5;1;3;0;15;2;17;0
+35;Botafogo;Cuiabá;1;2;13;0;13;3;3;1;18;0;7;1
+35;Fortaleza;Flamengo;4;0;14;2;14;2;1;1;14;2;24;0
+35;Internacional;Grêmio;3;1;7;7;23;5;3;0;5;8;14;3
+35;Vasco;Coritiba;3;0;15;10;15;4;1;1;5;8;21;0
+36;Bragantino;Fortaleza;2;0;4;5;18;5;0;1;12;8;24;1
+36;Atlético-MG;Flamengo;1;2;14;10;14;2;2;2;6;3;20;1
+36;Coritiba;Goiás;2;0;8;8;19;5;1;1;9;9;19;4
+36;Internacional;Athletico-PR;5;1;4;8;10;0;0;0;5;3;8;3
+36;Fluminense;Corinthians;4;1;7;4;16;5;2;2;17;1;24;1
+36;Vasco;Grêmio;1;0;3;6;5;0;4;0;7;3;22;0
+36;Palmeiras;Santos;4;2;9;1;11;4;5;0;18;7;5;2
+36;Cruzeiro;América-MG;4;2;4;8;16;3;1;2;17;8;5;2
+36;São Paulo;Botafogo;0;1;16;4;9;2;1;1;15;9;17;1
+36;Cuiabá;Bahia;1;0;15;10;25;0;4;1;11;8;10;3
+37;Botafogo;Flamengo;0;1;9;8;5;4;0;0;8;0;7;1
+37;Goiás;Internacional;0;0;18;0;11;3;3;2;13;2;24;2
+37;Palmeiras;Fluminense;2;2;13;3;24;1;0;2;8;0;14;0
+37;Athletico-PR;América-MG;0;2;10;4;21;3;2;2;13;7;13;2
+37;Bragantino;Grêmio;0;2;18;10;7;5;1;2;3;7;7;0
+37;Atlético-MG;Cuiabá;0;0;4;7;24;3;1;1;10;9;20;3
+37;São Paulo;Coritiba;0;0;19;9;12;0;0;2;15;7;13;2
+37;Vasco;Santos;1;0;5;1;21;4;5;2;13;8;15;2
+37;Fortaleza;Bahia;5;0;14;2;16;1;1;1;15;6;10;0
+37;Cruzeiro;Corinthians;4;0;9;6;10;2;1;0;4;3;9;3
+38;Palmeiras;Flamengo;5;1;13;1;17;5;2;1;19;6;25;1
+38;Grêmio;Coritiba;1;0;5;6;18;0;2;1;9;4;16;5
+38;Bragantino;São Paulo;0;0;4;4;19;2;0;1;20;6;24;1
+38;Corinthians;Fortaleza;0;2;7;1;8;4;2;2;11;5;18;3
+38;Athletico-PR;Bahia;3;0;17;10;8;2;4;2;18;8;6;0
+38;Cuiabá;Atlético-MG;5;0;18;7;9;3;5;1;20;2;14;5
+38;Vasco;Goiás;4;1;3;6;13;0;5;2;19;6;20;0
+38;Internacional;Botafogo;2;1;14;9;21;3;3;0;8;9;7;5
+38;Santos;América-MG;1;1;13;7;17;5;2;0;5;7;23;4
+38;Cruzeiro;Fluminense;1;2;8;6;10;5;3;1;8;4;9;5
