@@ -1,0 +1,190 @@
+import pandas as pd
+import random
+
+# ============================================================
+#  LEITURA DO ARQUIVO CSV
+#  sep=None detecta automaticamente o separador (tab, virgula, etc)
+#  encoding="latin-1" resolve os acentos do Excel brasileiro
+# ============================================================
+df = pd.read_csv("brasileirao_dados_corrigidos.csv", sep=None, engine="python", encoding="utf-8-sig")
+
+# ============================================================
+#  FUNÇÕES AUXILIARES  (sem sum(), mean() etc.)
+# ============================================================
+
+def somar_ate(limite):
+    """Soma os inteiros de 1 até limite usando for — Parte 1."""
+    total = 0
+    for i in range(1, limite + 1):
+        total = total + i
+    return total
+
+
+def simular_gols(forca):
+    """A cada 10 unidades de força = 1 gol (usando for, sem divisão direta)."""
+    gols = 0
+    contador = 0
+    for i in range(1, forca + 1):
+        contador = contador + 1
+        if contador == 10:
+            gols = gols + 1
+            contador = 0
+    return gols
+
+
+def aproveitamento_ofensivo(gols_simulados, chutes):
+    """Aproveitamento = (Gols Simulados / Chutes a Gol) x 100."""
+    if chutes > 0:
+        return (gols_simulados / chutes) * 100
+    else:
+        return 0.0
+
+
+def agressividade(faltas, ca, cv):
+    """Agressividade = Faltas + 2*CA + 3*CV."""
+    return faltas + 2 * ca + 3 * cv
+
+
+def indice_pressa_ofensiva(impedimentos, chutes, escanteios):
+    """IPO = Impedimentos / (Chutes a Gol + Escanteios + 1)."""
+    return impedimentos / (chutes + escanteios + 1)
+
+
+def simular_pressao_tatica(escanteios, chutes, faltas):
+    """
+    Parte 3:
+    - sorteia limite entre 50 e 150
+    - while acumula pressao ciclo a ciclo ate ultrapassar o limite
+    - retorna (pressao_total, ciclos, limite)
+    """
+    limite = random.randint(50, 150)
+    pressao_total = 0.0
+    ciclos = 0
+
+    while pressao_total <= limite:
+        pressao_total = pressao_total + (escanteios * 1.5) + (chutes * 1.2) - (faltas * 0.5)
+        ciclos = ciclos + 1
+
+    return pressao_total, ciclos, limite
+
+
+# ============================================================
+#  LOOP PRINCIPAL — percorre TODAS as partidas do CSV
+# ============================================================
+
+print("=" * 65)
+print("   SIMULADOR ESTATÍSTICO DE PARTIDAS DE FUTEBOL")
+print("=" * 65)
+
+for indice, linha in df.iterrows():
+
+    rodada      = linha["Rodada"]
+    time_casa   = linha["TimeCasa"]
+    time_fora   = linha["TimeFora"]
+
+    # dados do time da casa
+    ca_casa     = int(linha["CA_Casa"])
+    cv_casa     = int(linha["CV_Casa"])
+    chutes_casa = int(linha["Chutes_Casa"])
+    esc_casa    = int(linha["Escanteios_Casa"])
+    faltas_casa = int(linha["Faltas_Casa"])
+    imp_casa    = int(linha["Impedimentos_Casa"])
+
+    # dados do time visitante
+    ca_fora     = int(linha["CA_Fora"])
+    cv_fora     = int(linha["CV_Fora"])
+    chutes_fora = int(linha["Chutes_Fora"])
+    esc_fora    = int(linha["Escanteios_Fora"])
+    faltas_fora = int(linha["Faltas_Fora"])
+    imp_fora    = int(linha["Impedimentos_Fora"])
+
+    print(f"\nRODADA {rodada}:  {time_casa}  vs  {time_fora}")
+    print("-" * 65)
+
+    # ----------------------------------------------------------
+    #  PARTE 1 — Simulação do placar
+    # ----------------------------------------------------------
+    limite_casa = random.randint(1, 100)
+    forca_casa  = somar_ate(limite_casa)
+    gols_casa   = simular_gols(forca_casa)
+
+    limite_fora = random.randint(1, 100)
+    forca_fora  = somar_ate(limite_fora)
+    gols_fora   = simular_gols(forca_fora)
+
+    print(f"\n[PARTE 1 - PLACAR SIMULADO]")
+    print(f"  {time_casa}: limite_forca={limite_casa} | forca={forca_casa} | gols={gols_casa}")
+    print(f"  {time_fora}: limite_forca={limite_fora} | forca={forca_fora} | gols={gols_fora}")
+    print(f"  Placar: {time_casa} {gols_casa} x {gols_fora} {time_fora}")
+
+    if gols_casa > gols_fora:
+        print(f"  >>> Vencedor: {time_casa}")
+    elif gols_fora > gols_casa:
+        print(f"  >>> Vencedor: {time_fora}")
+    else:
+        print(f"  >>> Resultado: EMPATE")
+
+    # ----------------------------------------------------------
+    #  PARTE 2 — Estatísticas da partida
+    # ----------------------------------------------------------
+    print(f"\n[PARTE 2 - ESTATÍSTICAS]")
+
+    # 2.1 Aproveitamento ofensivo
+    aprov_casa = aproveitamento_ofensivo(gols_casa, chutes_casa)
+    aprov_fora = aproveitamento_ofensivo(gols_fora, chutes_fora)
+    print(f"  Aproveitamento Ofensivo:")
+    print(f"    {time_casa}: {aprov_casa:.2f}%")
+    print(f"    {time_fora}: {aprov_fora:.2f}%")
+
+    # 2.2 Time mais agressivo
+    agress_casa = agressividade(faltas_casa, ca_casa, cv_casa)
+    agress_fora = agressividade(faltas_fora, ca_fora, cv_fora)
+    print(f"  Agressividade:")
+    print(f"    {time_casa}: {agress_casa:.0f}  |  {time_fora}: {agress_fora:.0f}")
+    if agress_casa > agress_fora:
+        print(f"  >>> Time mais agressivo: {time_casa}")
+    elif agress_fora > agress_casa:
+        print(f"  >>> Time mais agressivo: {time_fora}")
+    else:
+        print(f"  >>> Agressividade igual entre os times")
+
+    # 2.3 Comparação de escanteios
+    print(f"  Escanteios:  {time_casa}={esc_casa}  |  {time_fora}={esc_fora}")
+    if esc_casa > esc_fora:
+        print(f"  >>> Mais escanteios: {time_casa}")
+    elif esc_fora > esc_casa:
+        print(f"  >>> Mais escanteios: {time_fora}")
+    else:
+        print(f"  >>> Escanteios: EMPATE")
+
+    # 2.4 Índice de Pressa Ofensiva
+    ipo_casa = indice_pressa_ofensiva(imp_casa, chutes_casa, esc_casa)
+    ipo_fora = indice_pressa_ofensiva(imp_fora, chutes_fora, esc_fora)
+    print(f"  Índice de Pressa Ofensiva (IPO):")
+    print(f"    {time_casa}: {ipo_casa:.3f}  |  {time_fora}: {ipo_fora:.3f}")
+
+    # ----------------------------------------------------------
+    #  PARTE 3 — Simulação da pressão tática
+    # ----------------------------------------------------------
+    print(f"\n[PARTE 3 - PRESSÃO TÁTICA]")
+
+    pressao_casa, ciclos_casa, lim_casa = simular_pressao_tatica(
+        esc_casa, chutes_casa, faltas_casa
+    )
+    pressao_fora, ciclos_fora, lim_fora = simular_pressao_tatica(
+        esc_fora, chutes_fora, faltas_fora
+    )
+
+    print(f"  {time_casa}:")
+    print(f"    Limite sorteado : {lim_casa}")
+    print(f"    Ciclos mantidos : {ciclos_casa}")
+    print(f"    Pressão acumulada: {pressao_casa:.2f}")
+
+    print(f"  {time_fora}:")
+    print(f"    Limite sorteado : {lim_fora}")
+    print(f"    Ciclos mantidos : {ciclos_fora}")
+    print(f"    Pressão acumulada: {pressao_fora:.2f}")
+
+print("\n" + "=" * 65)
+print("  FIM DA SIMULAÇÃO")
+print("=" * 65)
